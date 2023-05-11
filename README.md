@@ -2,6 +2,8 @@
 
 这里是一个vue2 + vue-cli + vue-i18n v8 的自动国际化工程演示demo 。 vue-cli 使用的 vue-loader 是v15
 
+> 请注意，若你是vue2的项目，请使用vue-i18n v8版本，而不是v9, v9是搭配vue3的
+
 要运行项目实现自动翻译，请在根目录下的`i18nauto.config.js`文件中，设置你注册的腾讯翻译api的`secretId`和`secretKey`，并把`on`设置为`true`
 
 需要留意的文件有
