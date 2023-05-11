@@ -6,7 +6,7 @@ const locale = 'zh' // 当前你所需的语言环境，此demo写死zh，使用
 let i18n = new VueI18n({
     locale,
     messages: {
-        [locale]: require(`/lang/${locale}.json`)
+        [locale]: require(`/lang/${locale}.json`) // 中文的词条配置
     }
 })
 
